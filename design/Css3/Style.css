@@ -80,10 +80,11 @@ img{
 /* Body */
 body{
     display: flex;
+    width: 95vw;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 95vh;
+    height: 100vh;
     font-size: 15px;
     font-family: var(--fuente);
     background-color: var(--Gris-Claro);
@@ -115,7 +116,7 @@ div{
 }
 
 img{
-    width: 45%;
+    width: 90%;
     border-radius: 18px;
 }
 .attribution { 
