@@ -131,6 +131,77 @@ img{
 } 
 }
 
+/* responsive tablet */
+@media (max-width:1500px){
+    /* Root, Variables */
+    :root{
+        --fuente: 'Outfit', sans-serif;
+        --Blanco: hsl(0, 0%, 100%);
+        --Gris-Claro: hsl(212, 45%, 89%); 
+        --Azul-Claro: hsl(220, 15%, 55%);
+        --Azul-Oscuro: hsl(218, 44%, 22%);
+        --mobile-width:375px;
+        --desktop-width:1440px;
+    }
+    
+    /* Selector universal */
+    *{
+        box-sizing: border-box;
+    }
+    
+    /* Body */
+    body{
+        display: flex;
+        width: 95vw;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        font-size: 15px;
+        font-family: var(--fuente);
+        background-color: var(--Gris-Claro);
+    }
+    
+    
+    /* Clases, Id's etc. */
+    .container{
+        background-color: var(--Blanco);
+        width: 265px;
+        height: 480px;
+        border-radius: 18px;
+    }
+    .title{
+        padding: 0px 15px 15px 15px;
+    }
+    
+    .texto{
+        padding: 15px 15px 15px 15px;;
+        color: var(--Azul-Claro);
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+    img{
+        width: 90%;
+        border-radius: 18px;
+    }
+    .attribution { 
+        font: var(--fuente);
+        bottom: 25px;
+        position: absolute;
+        font-size: 15px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    } 
+    }
 
 
 
