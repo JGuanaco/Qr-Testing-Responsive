@@ -5,6 +5,8 @@
     --Gris-Claro: hsl(212, 45%, 89%); 
     --Azul-Claro: hsl(220, 15%, 55%);
     --Azul-Oscuro: hsl(218, 44%, 22%);
+    --mobile-width:375px;
+    --desktop-width:1440px;
 }
 
 /* Selector universal */
@@ -58,7 +60,7 @@ img{
 
 
 /* Responsive design Test */
-@media  (min-width:300px) {
+@media (max-width:var(--mobile-width)){
 /* Root, Variables */
 :root{
     --fuente: 'Outfit', sans-serif;
@@ -66,6 +68,8 @@ img{
     --Gris-Claro: hsl(212, 45%, 89%); 
     --Azul-Claro: hsl(220, 15%, 55%);
     --Azul-Oscuro: hsl(218, 44%, 22%);
+    --mobile-width:375px;
+    --desktop-width:1440px;
 }
 
 /* Selector universal */
@@ -89,8 +93,8 @@ body{
 /* Clases, Id's etc. */
 .container{
     background-color: var(--Blanco);
-    width: 310px;
-    height: 510px;
+    width: 265px;
+    height: 475px;
     border-radius: 18px;
 }
 .title{
@@ -111,64 +115,7 @@ div{
 }
 
 img{
-    width: 285px;
-    border-radius: 18px;
-}
-}
-@media (max-height 900px){
-    /* Root, Variables */
-:root{
-    --fuente: 'Outfit', sans-serif;
-    --Blanco: hsl(0, 0%, 100%);
-    --Gris-Claro: hsl(212, 45%, 89%); 
-    --Azul-Claro: hsl(220, 15%, 55%);
-    --Azul-Oscuro: hsl(218, 44%, 22%);
-}
-
-/* Selector universal */
-*{
-    box-sizing: border-box;
-}
-
-/* Body */
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 95vh;
-    font-size: 15px;
-    font-family: var(--fuente);
-    background-color: var(--Gris-Claro);
-}
-
-
-/* Clases, Id's etc. */
-.container{
-    background-color: var(--Blanco);
-    width: 310px;
-    height: 510px;
-    border-radius: 18px;
-}
-.title{
-    padding: 0px 15px 15px 15px;
-}
-
-.texto{
-    padding: 15px 15px 15px 15px;;
-    color: var(--Azul-Claro);
-}
-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    
-}
-
-img{
-    width: 285px;
+    width: 50%;
     border-radius: 18px;
 }
 }
@@ -223,7 +170,7 @@ img{
 /* Footer / Pie de pagina */
 .attribution { 
     font: var(--fuente);
-    bottom: 20px;
+    bottom: 5px;
     position: absolute;
     font-size: 15px; 
     text-align: center; 
