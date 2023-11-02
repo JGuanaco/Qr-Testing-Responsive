@@ -94,7 +94,7 @@ body{
 .container{
     background-color: var(--Blanco);
     width: 265px;
-    height: 475px;
+    height: 480px;
     border-radius: 18px;
 }
 .title{
@@ -115,7 +115,7 @@ div{
 }
 
 img{
-    width: 50%;
+    width: 45%;
     border-radius: 18px;
 }
 .attribution { 
