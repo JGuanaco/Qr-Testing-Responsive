@@ -118,6 +118,16 @@ img{
     width: 50%;
     border-radius: 18px;
 }
+.attribution { 
+    font: var(--fuente);
+    bottom: 25px;
+    position: absolute;
+    font-size: 15px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} 
 }
 
 
@@ -170,7 +180,7 @@ img{
 /* Footer / Pie de pagina */
 .attribution { 
     font: var(--fuente);
-    bottom: 5px;
+    bottom: 25px;
     position: absolute;
     font-size: 15px; 
     text-align: center; 
